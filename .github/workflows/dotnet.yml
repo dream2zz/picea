@@ -26,7 +26,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Publish
       run: dotnet publish -o web
-    - name: Setup Pages
+    - name: Setup pages
       id: pages
       uses: actions/configure-pages@v3
     - name: Upload artifact
