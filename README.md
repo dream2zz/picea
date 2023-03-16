@@ -1,3 +1,3 @@
 # picea
 
-`dotnet publish -o docs`
+dotnet publish -o docs
